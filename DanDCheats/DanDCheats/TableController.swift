@@ -8,15 +8,21 @@
 import UIKit
 
 class TableController: UITableViewController {
-
+    var TableData:Array< String > = Array < String >()
+     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+         return 1
+    }
+     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+         return TableData.count
+    }
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UITableViewCell
+         cell.textLabel?.text = TableData[indexPath.row]
+         return cell
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        get_data_from_url("http://www.kaleidosblog.com/tutorial/tutorial.json")
     }
 
     // MARK: - Table view data source
