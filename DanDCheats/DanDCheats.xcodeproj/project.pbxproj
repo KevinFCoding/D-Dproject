@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15FB3ED325A7167800B4FCEC /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB3ED225A7167800B4FCEC /* TwitterViewController.swift */; };
+		15FB3F1525A7A6E600B4FCEC /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB3F1425A7A6E600B4FCEC /* DiceViewController.swift */; };
 		C848463825A7094800F81803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848463725A7094800F81803 /* AppDelegate.swift */; };
 		C848463A25A7094800F81803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848463925A7094800F81803 /* SceneDelegate.swift */; };
 		C848463C25A7094800F81803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848463B25A7094800F81803 /* ViewController.swift */; };
 		C848463F25A7094800F81803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C848463D25A7094800F81803 /* Main.storyboard */; };
-		C848464125A7094D00F81803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C848464025A7094D00F81803 /* Assets.xcassets */; };
 		C848464425A7094D00F81803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C848464225A7094D00F81803 /* LaunchScreen.storyboard */; };
 		C848464F25A7094D00F81803 /* DanDCheatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848464E25A7094D00F81803 /* DanDCheatsTests.swift */; };
 		C848465A25A7094D00F81803 /* DanDCheatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848465925A7094D00F81803 /* DanDCheatsUITests.swift */; };
+		C86DEEA125A7DBD40007B92A /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9825A7DBD40007B92A /* DiceViewController.swift */; };
+		C86DEEA225A7DBD40007B92A /* ListSpellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9925A7DBD40007B92A /* ListSpellsViewController.swift */; };
+		C86DEEA425A7DBD40007B92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86DEE9B25A7DBD40007B92A /* Assets.xcassets */; };
+		C86DEEA525A7DBD40007B92A /* SpellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9C25A7DBD40007B92A /* SpellViewController.swift */; };
+		C86DEEA625A7DBD40007B92A /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9D25A7DBD40007B92A /* TableController.swift */; };
+		C86DEEA725A7DBD40007B92A /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9E25A7DBD40007B92A /* TwitterViewController.swift */; };
+		C86DEEA825A7DBD40007B92A /* dataLoaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9F25A7DBD40007B92A /* dataLoaded.swift */; };
+		C86DEEA925A7DBD40007B92A /* SpellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEEA025A7DBD40007B92A /* SpellData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15FB3ED225A7167800B4FCEC /* TwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		15FB3F1425A7A6E600B4FCEC /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		C848463425A7094800F81803 /* DanDCheats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanDCheats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C848463725A7094800F81803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C848463925A7094800F81803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C848463B25A7094800F81803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C848463E25A7094800F81803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C848464025A7094D00F81803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C848464325A7094D00F81803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C848464525A7094D00F81803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C848464A25A7094D00F81803 /* DanDCheatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanDCheatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +59,14 @@
 		C848465525A7094D00F81803 /* DanDCheatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanDCheatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C848465925A7094D00F81803 /* DanDCheatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanDCheatsUITests.swift; sourceTree = "<group>"; };
 		C848465B25A7094D00F81803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86DEE9825A7DBD40007B92A /* DiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
+		C86DEE9925A7DBD40007B92A /* ListSpellsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSpellsViewController.swift; sourceTree = "<group>"; };
+		C86DEE9B25A7DBD40007B92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C86DEE9C25A7DBD40007B92A /* SpellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellViewController.swift; sourceTree = "<group>"; };
+		C86DEE9D25A7DBD40007B92A /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		C86DEE9E25A7DBD40007B92A /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		C86DEE9F25A7DBD40007B92A /* dataLoaded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataLoaded.swift; sourceTree = "<group>"; };
+		C86DEEA025A7DBD40007B92A /* SpellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +117,20 @@
 		C848463625A7094800F81803 /* DanDCheats */ = {
 			isa = PBXGroup;
 			children = (
+				C86DEE9B25A7DBD40007B92A /* Assets.xcassets */,
+				C86DEE9F25A7DBD40007B92A /* dataLoaded.swift */,
+				C86DEE9825A7DBD40007B92A /* DiceViewController.swift */,
+				C86DEE9925A7DBD40007B92A /* ListSpellsViewController.swift */,
+				C86DEEA025A7DBD40007B92A /* SpellData.swift */,
+				C86DEE9C25A7DBD40007B92A /* SpellViewController.swift */,
+				C86DEE9D25A7DBD40007B92A /* TableController.swift */,
+				C86DEE9E25A7DBD40007B92A /* TwitterViewController.swift */,
 				C848463725A7094800F81803 /* AppDelegate.swift */,
 				C848463925A7094800F81803 /* SceneDelegate.swift */,
 				C848463B25A7094800F81803 /* ViewController.swift */,
 				C848463D25A7094800F81803 /* Main.storyboard */,
+				15FB3F1425A7A6E600B4FCEC /* DiceViewController.swift */,
+				15FB3ED225A7167800B4FCEC /* TwitterViewController.swift */,
 				C848464025A7094D00F81803 /* Assets.xcassets */,
 				C848464225A7094D00F81803 /* LaunchScreen.storyboard */,
 				C848464525A7094D00F81803 /* Info.plist */,
@@ -232,8 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C848464425A7094D00F81803 /* LaunchScreen.storyboard in Resources */,
-				C848464125A7094D00F81803 /* Assets.xcassets in Resources */,
 				C848463F25A7094800F81803 /* Main.storyboard in Resources */,
+				C86DEEA425A7DBD40007B92A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15FB3ED325A7167800B4FCEC /* TwitterViewController.swift in Sources */,
+				15FB3F1525A7A6E600B4FCEC /* DiceViewController.swift in Sources */,
 				C848463C25A7094800F81803 /* ViewController.swift in Sources */,
+				C86DEEA825A7DBD40007B92A /* dataLoaded.swift in Sources */,
 				C848463825A7094800F81803 /* AppDelegate.swift in Sources */,
 				C848463A25A7094800F81803 /* SceneDelegate.swift in Sources */,
+				C86DEEA525A7DBD40007B92A /* SpellViewController.swift in Sources */,
+				C86DEEA225A7DBD40007B92A /* ListSpellsViewController.swift in Sources */,
+				C86DEEA925A7DBD40007B92A /* SpellData.swift in Sources */,
+				C86DEEA125A7DBD40007B92A /* DiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
