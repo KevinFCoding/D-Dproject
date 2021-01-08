@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15FB3ED325A7167800B4FCEC /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB3ED225A7167800B4FCEC /* TwitterViewController.swift */; };
+		15FB3F1525A7A6E600B4FCEC /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB3F1425A7A6E600B4FCEC /* DiceViewController.swift */; };
 		C848463825A7094800F81803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848463725A7094800F81803 /* AppDelegate.swift */; };
 		C848463A25A7094800F81803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848463925A7094800F81803 /* SceneDelegate.swift */; };
 		C848463C25A7094800F81803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848463B25A7094800F81803 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15FB3ED225A7167800B4FCEC /* TwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		15FB3F1425A7A6E600B4FCEC /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		C848463425A7094800F81803 /* DanDCheats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanDCheats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C848463725A7094800F81803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C848463925A7094800F81803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				C848463925A7094800F81803 /* SceneDelegate.swift */,
 				C848463B25A7094800F81803 /* ViewController.swift */,
 				C848463D25A7094800F81803 /* Main.storyboard */,
+				15FB3F1425A7A6E600B4FCEC /* DiceViewController.swift */,
+				15FB3ED225A7167800B4FCEC /* TwitterViewController.swift */,
 				C848464025A7094D00F81803 /* Assets.xcassets */,
 				C848464225A7094D00F81803 /* LaunchScreen.storyboard */,
 				C848464525A7094D00F81803 /* Info.plist */,
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15FB3ED325A7167800B4FCEC /* TwitterViewController.swift in Sources */,
+				15FB3F1525A7A6E600B4FCEC /* DiceViewController.swift in Sources */,
 				C848463C25A7094800F81803 /* ViewController.swift in Sources */,
 				C848463825A7094800F81803 /* AppDelegate.swift in Sources */,
 				C848463A25A7094800F81803 /* SceneDelegate.swift in Sources */,
