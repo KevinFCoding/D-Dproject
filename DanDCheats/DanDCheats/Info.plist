@@ -50,7 +50,7 @@
 		<key>UIImageRespectsSafeAreaInsets</key>
 		<false/>
 		<key>UIColorName</key>
-		<string>Launchscreen-background</string>
+		<string>mainColor</string>
 	</dict>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
