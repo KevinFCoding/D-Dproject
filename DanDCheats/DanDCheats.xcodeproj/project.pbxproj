@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15F4C2EF25A867A8004E380C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4C2EE25A867A8004E380C /* ViewController.swift */; };
 		15FB3ED325A7167800B4FCEC /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB3ED225A7167800B4FCEC /* TwitterViewController.swift */; };
 		15FB3F1525A7A6E600B4FCEC /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB3F1425A7A6E600B4FCEC /* DiceViewController.swift */; };
 		C848463825A7094800F81803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848463725A7094800F81803 /* AppDelegate.swift */; };
@@ -20,8 +21,6 @@
 		C86DEEA225A7DBD40007B92A /* ListSpellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9925A7DBD40007B92A /* ListSpellsViewController.swift */; };
 		C86DEEA425A7DBD40007B92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86DEE9B25A7DBD40007B92A /* Assets.xcassets */; };
 		C86DEEA525A7DBD40007B92A /* SpellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9C25A7DBD40007B92A /* SpellViewController.swift */; };
-		C86DEEA625A7DBD40007B92A /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9D25A7DBD40007B92A /* TableController.swift */; };
-		C86DEEA725A7DBD40007B92A /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9E25A7DBD40007B92A /* TwitterViewController.swift */; };
 		C86DEEA825A7DBD40007B92A /* dataLoaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEE9F25A7DBD40007B92A /* dataLoaded.swift */; };
 		C86DEEA925A7DBD40007B92A /* SpellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86DEEA025A7DBD40007B92A /* SpellData.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15F4C2EE25A867A8004E380C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15FB3ED225A7167800B4FCEC /* TwitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
 		15FB3F1425A7A6E600B4FCEC /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		C848463425A7094800F81803 /* DanDCheats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanDCheats.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +123,7 @@
 				C86DEE9925A7DBD40007B92A /* ListSpellsViewController.swift */,
 				C86DEEA025A7DBD40007B92A /* SpellData.swift */,
 				C86DEE9C25A7DBD40007B92A /* SpellViewController.swift */,
+				15F4C2EE25A867A8004E380C /* ViewController.swift */,
 				C86DEE9D25A7DBD40007B92A /* TableController.swift */,
 				C86DEE9E25A7DBD40007B92A /* TwitterViewController.swift */,
 				C848463725A7094800F81803 /* AppDelegate.swift */,
@@ -131,7 +132,6 @@
 				C848463D25A7094800F81803 /* Main.storyboard */,
 				15FB3F1425A7A6E600B4FCEC /* DiceViewController.swift */,
 				15FB3ED225A7167800B4FCEC /* TwitterViewController.swift */,
-				C848464025A7094D00F81803 /* Assets.xcassets */,
 				C848464225A7094D00F81803 /* LaunchScreen.storyboard */,
 				C848464525A7094D00F81803 /* Info.plist */,
 			);
@@ -290,6 +290,7 @@
 				15FB3F1525A7A6E600B4FCEC /* DiceViewController.swift in Sources */,
 				C848463C25A7094800F81803 /* ViewController.swift in Sources */,
 				C86DEEA825A7DBD40007B92A /* dataLoaded.swift in Sources */,
+				15F4C2EF25A867A8004E380C /* ViewController.swift in Sources */,
 				C848463825A7094800F81803 /* AppDelegate.swift in Sources */,
 				C848463A25A7094800F81803 /* SceneDelegate.swift in Sources */,
 				C86DEEA525A7DBD40007B92A /* SpellViewController.swift in Sources */,

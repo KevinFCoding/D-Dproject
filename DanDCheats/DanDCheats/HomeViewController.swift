@@ -2,13 +2,12 @@
 //  ViewController.swift
 //  DanDCheats
 //
-//  Created by Samantha on 08/01/2021.
+//  Created by Kevin Fagot on 07/01/2021.
 //
 
-import Foundation
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     @IBOutlet var myScrollView: UIScrollView!
     
@@ -23,3 +22,4 @@ class ViewController: UIViewController {
     }
     
 }
+
