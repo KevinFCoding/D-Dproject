@@ -9,8 +9,12 @@ import UIKit
 
 class DiceViewController: UIViewController {
 
-    @IBOutlet var text: UILabel!
-    @IBOutlet var textfield: UITextField!
+    
+    
+    
+    @IBOutlet weak var textfield: UITextField!
+    @IBOutlet weak var text: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         text.text = ""

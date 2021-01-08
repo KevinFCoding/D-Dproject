@@ -79,6 +79,9 @@ jeune aventurier !</string>
                                 <rect key="frame" x="89" y="427" width="325" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="lance_des"/>
+                                <connections>
+                                    <segue destination="RFC-DT-yeY" kind="presentation" id="9OW-sj-1wN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQg-KN-wEh">
                                 <rect key="frame" x="0.0" y="554" width="325" height="103"/>
@@ -94,6 +97,9 @@ jeune aventurier !</string>
                                 <rect key="frame" x="89" y="681" width="325" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="twitter"/>
+                                <connections>
+                                    <segue destination="2Nk-Zh-T0N" kind="presentation" id="PQe-3v-Wr1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vhf-kS-sgy"/>
@@ -104,13 +110,133 @@ jeune aventurier !</string>
             </objects>
             <point key="canvasLocation" x="627.536231884058" y="93.75"/>
         </scene>
+        <!--Dice View Controller-->
+        <scene sceneID="9ki-zC-icY">
+            <objects>
+                <viewController id="RFC-DT-yeY" customClass="DiceViewController" customModule="DanDCheats" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kKl-NQ-t8b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice" translatesAutoresizingMaskIntoConstraints="NO" id="07a-9u-6L0">
+                                <rect key="frame" x="68" y="176" width="278" height="164"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                </preferredSymbolConfiguration>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhn-37-bQd">
+                                <rect key="frame" x="134" y="610" width="215" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2z-lH-k4Q">
+                                <rect key="frame" x="192" y="396" width="31" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="OK" backgroundImage="rectangle" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="changetext:" destination="RFC-DT-yeY" eventType="touchUpInside" id="w8P-Gs-hKy"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="suddes" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-PJ-rGr">
+                                <rect key="frame" x="20" y="745" width="56" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="suddes" translatesAutoresizingMaskIntoConstraints="NO" id="aYu-pq-w0p">
+                                <rect key="frame" x="338" y="745" width="56" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="suddes" translatesAutoresizingMaskIntoConstraints="NO" id="sGI-oe-p1T">
+                                <rect key="frame" x="338" y="20" width="56" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="suddes" translatesAutoresizingMaskIntoConstraints="NO" id="Ets-In-o4A">
+                                <rect key="frame" x="20" y="20" width="56" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jet de dés" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4v-FE-p8J">
+                                <rect key="frame" x="140" y="47" width="134" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Le résultat:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pb-mn-vm5">
+                                <rect key="frame" x="41" y="610" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="top" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="19" translatesAutoresizingMaskIntoConstraints="NO" id="aeE-ch-xJi">
+                                <rect key="frame" x="156" y="238" width="103" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nvA-Nn-od8"/>
+                        <color key="backgroundColor" name="mainColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="text" destination="rhn-37-bQd" id="LMz-sO-MSj"/>
+                        <outlet property="textfield" destination="aeE-ch-xJi" id="A1f-1y-clU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sI3-WG-FuW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="627.536231884058" y="807.58928571428567"/>
+        </scene>
+        <!--Twitter View Controller-->
+        <scene sceneID="ytH-hi-I6P">
+            <objects>
+                <viewController id="2Nk-Zh-T0N" customClass="TwitterViewController" customModule="DanDCheats" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Diy-nu-dGS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fuf-od-ERL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RcQ-Vt-cGj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RcQ-Vt-cGj" firstAttribute="trailing" secondItem="Fuf-od-ERL" secondAttribute="trailing" id="IlV-0Q-3ez"/>
+                            <constraint firstItem="RcQ-Vt-cGj" firstAttribute="bottom" secondItem="Fuf-od-ERL" secondAttribute="bottom" id="Sh7-66-bp0"/>
+                            <constraint firstItem="Fuf-od-ERL" firstAttribute="top" secondItem="RcQ-Vt-cGj" secondAttribute="top" id="Ub2-cU-Dw8"/>
+                            <constraint firstItem="Fuf-od-ERL" firstAttribute="leading" secondItem="RcQ-Vt-cGj" secondAttribute="leading" id="WkG-bQ-QGW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1yE-MO-CLI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1361" y="94"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Launchscreen-logo" width="1000" height="1000"/>
+        <image name="dice" width="512" height="512"/>
         <image name="lance_des" width="1200" height="400"/>
         <image name="lexique" width="1200" height="400"/>
         <image name="personnages" width="1200" height="400"/>
+        <image name="rectangle" catalog="system" width="128" height="93"/>
         <image name="spells" width="1200" height="400"/>
+        <image name="suddes" width="512" height="512"/>
         <image name="twitter" width="1200" height="400"/>
         <image name="youtube" width="1200" height="400"/>
         <namedColor name="mainColor">
